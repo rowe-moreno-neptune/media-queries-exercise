@@ -1,0 +1,33 @@
+.nav-links {
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+
+}
+.header-img {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        background: #cccccc;
+    }
+    .company {
+        background: white;
+    }
+
+    .header-img {
+
+
+    }
+    div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
