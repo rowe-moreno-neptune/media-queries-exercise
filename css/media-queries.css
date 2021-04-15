@@ -49,6 +49,7 @@ ul li {
 }
     h1{
         float: left;
+        padding-left: 10px;
     }
     ul{
         display: flex;
@@ -65,5 +66,23 @@ ul li {
         width: 50px;
 
     }
+    .header-img{
+        padding: 0 10px;
+    }
+    .main{
+        float: left;
+        width: 50%;
+    }
+    footer{
+    position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    #social-media-links{
+        float: right;
 
+    }
+#social-media-links>a{
+    color: black;
+}
 }
